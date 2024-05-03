@@ -10,6 +10,5 @@ RUN set -x \
   && mkdir /etc/supervisord.d \
   && history -c
   
-###########
 #Set default work directory.
 WORKDIR /opt/app
