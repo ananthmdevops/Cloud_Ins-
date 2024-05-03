@@ -9,3 +9,6 @@ RUN set -x \
   && easy_install supervisor \
   && mkdir /etc/supervisord.d \
   && history -c
+  
+# Set default work directory.
+WORKDIR /opt/app
